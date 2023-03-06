@@ -1,7 +1,7 @@
 const swaggerJsdoc = require('swagger-jsdoc');
-const candidatureSchema = require('./Schemas/candidatureSchema');
-const entrepriseSchema = require('./Schemas/entrepriseSchema');
-const offreSchema = require('./Schemas/offreSchema');
+const candidatureSchema = require('../Schemas/candidatureSchema');
+const entrepriseSchema = require('../Schemas/entrepriseSchema');
+const offreSchema = require('../Schemas/offreSchema');
 
 const options = {
     swaggerDefinition: {

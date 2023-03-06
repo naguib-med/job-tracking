@@ -1,6 +1,6 @@
 const express = require('express');
 const swaggerUi = require('swagger-ui-express');
-const specs  = require('./swagger');
+const specs  = require('./utils/swagger');
 
 const app = express();
 // Configuration de l'application Express.js
