@@ -23,6 +23,7 @@ const entrepriseSchema = new mongoose.Schema({
     },
 });
 
+
 const Entreprise = mongoose.model('Entreprise', entrepriseSchema);
 
 module.exports = Entreprise;
