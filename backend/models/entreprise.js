@@ -1,28 +1,7 @@
 const mongoose = require('mongoose');
+const eSchema = require('../Schemas/entrepriseSchema');
 
-const entrepriseSchema = new mongoose.Schema({
-    nom: {
-        type: String,
-        required: true
-    },
-    adresse: {
-        type: String,
-        required: true
-    },
-    ville: {
-        type: String,
-        required: true
-    },
-    code_postal: {
-        type: String,
-        required: true
-    },
-    pays: {
-        type: String,
-        required: true
-    },
-});
-
+const entrepriseSchema = new mongoose.Schema(eSchema);
 
 const Entreprise = mongoose.model('Entreprise', entrepriseSchema);
 
