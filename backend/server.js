@@ -8,6 +8,7 @@ app.use(express.json());
 
 // Import de la fonction de connexion à la base de données
 const connectDB = require('./config/dbConfig');
+
 // Connexion à la base de données
 connectDB().then(() => {
     console.log('Connected to database');
