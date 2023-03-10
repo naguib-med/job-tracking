@@ -1,9 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 
-function Entreprises() {
+const Entreprises = () =>  {
     return (
         <div>
-            <h1>Entreprises</h1>
+
         </div>
     )
 }

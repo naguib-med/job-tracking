@@ -1,8 +1,10 @@
 import './App.css'
-import Routes from './routes/Routes';
+import NavBar from "./sections/Navbar/NavBar.jsx";
 function App() {
     return (
-        <Routes />
+        <div className="App">
+            <NavBar />
+        </div>
     )
 }
 
