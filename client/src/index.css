@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+:root {
+  background: #f7fafc;
+}
+
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.1em;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+img {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
